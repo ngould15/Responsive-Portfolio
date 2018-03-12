@@ -325,7 +325,229 @@ hr {
     font-size: 13px;
 }
 
+@media screen and (max-width: 980px) {
+    .footer {
+        height: 50px;
+    }
+ 
+    #footer-text {
+        margin-top: 10px;
+    }
+    
+     #h1 {
+         background-color:#4aaaa5;
+         height: 81px;
+         width: 250px;
+         float: left;
+         margin-left: 125px;
+         padding: 10px;
+     }
+     
+     h1 {
+         color: white;
+         font-family: 'Georgia', Times, Times New Roman, serif;
+         font-size: 28px;
+         text-align: center;
+         margin-left: 30px;
+         margin-top: 20px;
+     }
+     
+     
+     .header {
+         height: 100px;
+         width: 100%;
+         background: #ffffff;
+         border:2px solid #cccccc;
+         margin:0px auto;
+     }
+ 
+     .navlink {
+         font-size: 14px;
+         margin-top: 10px;
+         margin-left: 5px;
+     }
+      
+    
+ #nav ul {
+     list-style-type: none;
+     margin-right: 15px;
+     padding: 0;
+     overflow: hidden;
+     background-color: #ffffff;
+ }
+ 
+ #nav li {
+     float: right;
+     display: inline;
+ }
+ 
+ #nav li a {
+     display: block;
+     color: grey;
+     text-align: center;
+     text-decoration: none;
+     border-right: none;
+ }
+ 
+     .contact-info {
+         width: 250px;
+         height: 150px;
+         background: #ffffff;
+         border:2px solid #cccccc;
+         margin-left: 5%;
+         float: left;
+         text-align: left;
+     }
+ 
+     .GitHub {
+         margin-left: 25px;
+         padding-left: 10px;
+         padding-bottom: 10px;
+     }
+ 
+     .LinkedIn {
+         padding-left: 10px;
+         padding-bottom: 10px;
+     }
+ 
+     .StackOverflow {
+         padding-left: 10px;
+         padding-bottom: 10px;
+     }
+ 
+     .GitHub:hover {
+         content: url("../images/if_GitHub_367586.png");
+         height: 20px;
+         width: 30px;
+     }
+     
+     .LinkedIn:hover {
+         content: url("../images/if_social_style_2_in_393301.png");
+         height: 20px;
+         width: 30px;
+     }
+     
+     .StackOverflow:hover {
+         content: url("../images/if_stackoverflow_rounded_394191.png");
+         height: 20px;
+         width: 30px;
+     }
+ 
+     .container{
+         float: left;
+         clear: both;
+         width: 350px;
+         height: auto;
+         background: #ffffff;
+         border:2px solid #cccccc;
+         margin-left: 13%;
+         margin-top: 25px;
+     }
+ 
+ /*Items specific from the Index page */
+ 
+      #main-bio{
+         margin-left: 10px;
+         padding-bottom: 20px;
+         font-size: 16px;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+         
+     .About-Me{
+         text-align: left;
+         margin: 0px 25px 25px 15px;
+     }
+         
+     #bio-image{
+         width: 290px;
+         height: 190px;
+         padding: 15px;
+         margin-left: 10px;
+     }
+ 
+ /* Item specific from Contact Page */
+ 
+     #submit {
+         color: #fff;
+         font-size: 18px;
+         width: 120px;
+         height: 40px;
+         background:#4aaaa5; 
+         margin-bottom: 30px;
+        }
+
+        #message {
+            height: 200px;
+        }
+ 
+ /* Item specific from Portfolio Page */
+ #portfolio {
+     margin-left: 5px;
+     margin-top: 15px;
+     padding: 10px;
+ }
+ 
+ #Placeholder-1 {  
+     position: absolute;
+     width: 500px;
+     height: 500px;
+ }
+ 
+ #Placeholder-2 {
+     display: none;
+ }
+ 
+ #Placeholder-3 {
+     display: none;
+ }
+ 
+ #Placeholder-4 {
+     display: none;
+ }
+ 
+ #Placeholder-5 {
+     display: none;
+ }
+ 
+ #Placeholder-6 {
+     display: none;
+ }
+ 
+ #PH1 {
+     display: none;
+ }
+ 
+ #PH2 {
+     display: none;
+ }
+ 
+ #PH3 {
+     display: none;
+ }
+ 
+ #PH4 {
+     display: none;
+ }
+ 
+ #PH5 {
+     display: none;
+ }
+ 
+ #PH6 {
+     display: none;
+ }
+ 
+ }  
+
 @media screen and (max-width: 768px) {
+   .footer {
+       height: 50px;
+   }
+
+   #footer-text {
+       margin-top: 10px;
+   }
+   
     #h1 {
         background-color:#4aaaa5;
         height: 81px;
@@ -354,7 +576,7 @@ hr {
 
     .navlink {
         font-size: 18px;
-        margin-top: -10px;
+        margin-top: 10px;
         margin-left: 25px;
     }
      
@@ -378,31 +600,33 @@ hr {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 1px solid grey;
+    border-right: none;
 }
 
     .contact-info {
-        width: 625px;
+        width: 700px;
         height: 200px;
         background: #ffffff;
         border:2px solid #cccccc;
         margin-left: 5%;
         float: left;
-        margin-top: 25px;
         text-align: left;
     }
 
     .GitHub {
         margin-left: 25px;
         padding-left: 10px;
+        padding-bottom: 10px;
     }
 
     .LinkedIn {
         padding-left: 10px;
+        padding-bottom: 10px;
     }
 
     .StackOverflow {
         padding-left: 10px;
+        padding-bottom: 10px;
     }
 
     .GitHub:hover {
@@ -619,14 +843,14 @@ hr {
         float: left;
         clear: both;
         width: 575px;
-        height: auto;
+        height: 1000px;
         background: #ffffff;
         border:2px solid #cccccc;
         margin-left: 5%;
         margin-top: 25px;
     }
 
-/*Items specific from the Index page */
+/*Items specific from the Index page*/
 
      #main-bio{
         margin-left: 15px;
@@ -646,7 +870,7 @@ hr {
         margin-left: 10px;
     }
 
-/* Item specific from Contact Page */
+/* Item specific from Contact Page*/
 
     #submit {
         color: #fff;
@@ -658,40 +882,41 @@ hr {
        }
 
 /* Item specific from Portfolio Page */
-#portfolio {
-    margin-left: 5px;
-    margin-top: 15px;
-    padding: 10px;
-}
 
 #Placeholder-1 {  
-    width: 400px;
-    height: 500px;
+    margin-top: 40px;
+    width: 500px;
+    height: 375px;
 }
 
 #Placeholder-2 {
-    width: 400px;
-    height: 500px;
+    margin-top: -200px;
+    width: 500px;
+    height: 375px;
 }
 
 #Placeholder-3 {
-    width: 400px;
-    height: 500px;
+    margin-top: 40px;
+    width: 500px;
+    height: 375px;
 }
 
 #Placeholder-4 {
-    width: 400px;
-    height: 500px;
+    margin-top: 40px;
+    width: 500px;
+    height: 375px;
 }
 
 #Placeholder-5 {
-    width: 400px;
-    height: 500px;
+    margin-top: 40px;
+    width: 500px;
+    height: 375px;
 }
 
 #Placeholder-6 {
-    width: 400px;
-    height: 500px;
+    margin-bottom: 40px;
+    width: 500px;
+    height: 375px;
 }
 
 #PH1 {
